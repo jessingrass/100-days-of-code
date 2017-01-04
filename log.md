@@ -1,30 +1,25 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: January 3, 2017
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Learned about splicing and working with arrays; still not sure how to get an item from an array and just save the numeric value. Something for tomorrow.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I'm slow at coding. Always have been, always will be. But I like learning about all the ways that lists can be manipulated. I'm not sure exactly how this would be used in reality, but I expect that I'll learn more. 
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** https://py.checkio.org/mission/even-last/solve/  (links to problem but not to my code, so I posted my work and the tests below)
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+def checkio(array):
+    # start at beginning of list and take every 2nd item
+    # then multiply by the last item
+    even = array[::2]
+        # how do I get the value of the even items, rather than having them return in a list
+    final = array[-1]
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+    #test
+    print(even)
+    print(final)
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+#These "asserts" using only for self-checking and not necessary for auto-testing
+if __name__ == '__main__':
+    assert checkio([0, 1, 2, 3, 4, 5]) == 30, "(0+2+4)*5=30"
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
