@@ -19,7 +19,15 @@ def checkio(array):
     print(even)
     print(final)
 
-#These "asserts" using only for self-checking and not necessary for auto-testing
-if __name__ == '__main__':
-    assert checkio([0, 1, 2, 3, 4, 5]) == 30, "(0+2+4)*5=30"
+### Day 1: January 4, 2017
 
+**Today's Progress**: I figured out how to get the numbers that I want to return separately. Now I need to figure out how I might assign them to their own variables since right now they just return and I can't figure out how to "do" anything with them. 
+
+**Link to work** and problem same as yesterday. Here's the new code:
+
+def checkio(array):
+    for num in array[::2]:
+        return num
+
+
+**Thoughts**: I'm still slow, but forcing myself to do this bit by bit is getting me into parts of Python that I have been able to ignore for a long time because I didn't need them for work, even though it's part of the power of this language. I'm frustrated but in a good way.
